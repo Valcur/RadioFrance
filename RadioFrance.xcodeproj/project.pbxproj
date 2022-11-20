@@ -16,6 +16,16 @@
 		DB6B462F29265D3B0039F359 /* RadioFranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B462E29265D3B0039F359 /* RadioFranceTests.swift */; };
 		DB6B463929265D3B0039F359 /* RadioFranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B463829265D3B0039F359 /* RadioFranceUITests.swift */; };
 		DB6B463B29265D3B0039F359 /* RadioFranceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B463A29265D3B0039F359 /* RadioFranceUITestsLaunchTests.swift */; };
+		DB6B464829265EF40039F359 /* RadioStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B464729265EF40039F359 /* RadioStationTableViewCell.swift */; };
+		DB6B465D292676630039F359 /* RadioStationListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B4657292676620039F359 /* RadioStationListVM.swift */; };
+		DB6B46772926773E0039F359 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B46762926773E0039F359 /* UIImageExtension.swift */; };
+		DB94B31E29291167006172BA /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94B31D29291167006172BA /* Episode.swift */; };
+		DB94B32029291916006172BA /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94B31F29291916006172BA /* ShowView.swift */; };
+		DB94B32529295687006172BA /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94B32429295687006172BA /* RadioStation.swift */; };
+		DB94B3272929569F006172BA /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94B3262929569F006172BA /* Show.swift */; };
+		DB94B329292956C4006172BA /* Decode_Brands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94B328292956C4006172BA /* Decode_Brands.swift */; };
+		DB94B32B292956E1006172BA /* Decode_Shows.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94B32A292956E1006172BA /* Decode_Shows.swift */; };
+		DB94B32E292A4DB6006172BA /* RadioStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94B32D292A4DB6006172BA /* RadioStationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		DB6B463429265D3B0039F359 /* RadioFranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioFranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6B463829265D3B0039F359 /* RadioFranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioFranceUITests.swift; sourceTree = "<group>"; };
 		DB6B463A29265D3B0039F359 /* RadioFranceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioFranceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB6B464729265EF40039F359 /* RadioStationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationTableViewCell.swift; sourceTree = "<group>"; };
+		DB6B4657292676620039F359 /* RadioStationListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioStationListVM.swift; path = ../../RadioFranceOLD/RadioFrance/RadioStationListVM.swift; sourceTree = "<group>"; };
+		DB6B46762926773E0039F359 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		DB94B31D29291167006172BA /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		DB94B31F29291916006172BA /* ShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowView.swift; sourceTree = "<group>"; };
+		DB94B32429295687006172BA /* RadioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		DB94B3262929569F006172BA /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		DB94B328292956C4006172BA /* Decode_Brands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode_Brands.swift; sourceTree = "<group>"; };
+		DB94B32A292956E1006172BA /* Decode_Shows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode_Shows.swift; sourceTree = "<group>"; };
+		DB94B32D292A4DB6006172BA /* RadioStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,12 @@
 		DB6B461629265D390039F359 /* RadioFrance */ = {
 			isa = PBXGroup;
 			children = (
+				DB6B4657292676620039F359 /* RadioStationListVM.swift */,
+				DB94B32C29295716006172BA /* StationsList */,
+				DB6B4678292677520039F359 /* ShowsList */,
+				DB94B32329295608006172BA /* Common */,
 				DB6B461729265D390039F359 /* AppDelegate.swift */,
 				DB6B461929265D390039F359 /* SceneDelegate.swift */,
-				DB6B461B29265D390039F359 /* ViewController.swift */,
-				DB6B461D29265D390039F359 /* Main.storyboard */,
 				DB6B462029265D3A0039F359 /* Assets.xcassets */,
 				DB6B462229265D3A0039F359 /* LaunchScreen.storyboard */,
 				DB6B462529265D3A0039F359 /* Info.plist */,
@@ -125,6 +147,54 @@
 				DB6B463A29265D3B0039F359 /* RadioFranceUITestsLaunchTests.swift */,
 			);
 			path = RadioFranceUITests;
+			sourceTree = "<group>";
+		};
+		DB6B466A292676CB0039F359 /* Decode */ = {
+			isa = PBXGroup;
+			children = (
+				DB94B328292956C4006172BA /* Decode_Brands.swift */,
+				DB94B32A292956E1006172BA /* Decode_Shows.swift */,
+			);
+			path = Decode;
+			sourceTree = "<group>";
+		};
+		DB6B466F292676F50039F359 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				DB94B32429295687006172BA /* RadioStation.swift */,
+				DB94B3262929569F006172BA /* Show.swift */,
+				DB94B31D29291167006172BA /* Episode.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		DB6B4678292677520039F359 /* ShowsList */ = {
+			isa = PBXGroup;
+			children = (
+				DB94B32D292A4DB6006172BA /* RadioStationView.swift */,
+				DB94B31F29291916006172BA /* ShowView.swift */,
+			);
+			path = ShowsList;
+			sourceTree = "<group>";
+		};
+		DB94B32329295608006172BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B466A292676CB0039F359 /* Decode */,
+				DB6B466F292676F50039F359 /* Struct */,
+				DB6B46762926773E0039F359 /* UIImageExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DB94B32C29295716006172BA /* StationsList */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B461D29265D390039F359 /* Main.storyboard */,
+				DB6B464729265EF40039F359 /* RadioStationTableViewCell.swift */,
+				DB6B461B29265D390039F359 /* ViewController.swift */,
+			);
+			path = StationsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +328,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6B465D292676630039F359 /* RadioStationListVM.swift in Sources */,
+				DB94B32B292956E1006172BA /* Decode_Shows.swift in Sources */,
 				DB6B461C29265D390039F359 /* ViewController.swift in Sources */,
+				DB94B3272929569F006172BA /* Show.swift in Sources */,
+				DB6B46772926773E0039F359 /* UIImageExtension.swift in Sources */,
+				DB6B464829265EF40039F359 /* RadioStationTableViewCell.swift in Sources */,
 				DB6B461829265D390039F359 /* AppDelegate.swift in Sources */,
+				DB94B31E29291167006172BA /* Episode.swift in Sources */,
+				DB94B329292956C4006172BA /* Decode_Brands.swift in Sources */,
+				DB94B32529295687006172BA /* RadioStation.swift in Sources */,
+				DB94B32029291916006172BA /* ShowView.swift in Sources */,
 				DB6B461A29265D390039F359 /* SceneDelegate.swift in Sources */,
+				DB94B32E292A4DB6006172BA /* RadioStationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +525,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +554,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
